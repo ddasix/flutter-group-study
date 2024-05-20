@@ -1,0 +1,20 @@
+1. IN/OUT 새로 생성 시 Dimention 커서 문제
+2. Dispatch Order report & customer Invoice Merge
+3. 파일 조회 권한
+    - komas invoce는 komas 조회 권한
+4. 권한
+    1. 모든권한: ROLE_ADMIN_KMS
+    2. 편집 x, 조회, 출력, komas: ROLE_USER_KMS
+        - 모든권한에서 편집만 안되게
+    3. 조회만: ROLE_USER_SRL: 소렌토
+        - IN/OUT STOCK LIST READ ONLY
+        - IN/OUT STOCK DETAIL READ ONLY
+        - 상단 메뉴 모두 필요 없음
+        - KOMAS INVOICE 숨김
+5. 검수확인서
+6. REF NO.: collape
+7. 로그인 시 homes -> imports
+8. 입고확인 체크 시 ATA값 자동으로 입력
+    - 어떤 날짜가 들어있든 체크 하면 오늘 날짜
+9. 도메인 설정
+    - 메일로 정보 제공 예정 > 이씨스
